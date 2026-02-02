@@ -1,6 +1,7 @@
 # C-Bubble-Sort
 Sorting algorithm and swap method:
 
+```
 void sort(int *arr) {
     for (int i = 0; i < MAX-1; i++){
         for (int j = 0; j < MAX-1; j++) {
@@ -18,3 +19,4 @@ void swap(int *a, int *b) {
     *a = *b;
     *b = temp;
 };
+```
